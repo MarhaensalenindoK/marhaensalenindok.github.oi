@@ -292,6 +292,11 @@ body {
 .legalitas-modal .modal-content p {
   margin-bottom: 2rem;
 }
+@media (max-width: 720px) {
+  .legalitas-modal .modal-content p {
+    font-size: 11px;
+  }
+}
 .legalitas-modal .modal-content ul.list-inline {
   margin-bottom: 2rem;
 }
