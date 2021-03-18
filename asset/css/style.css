@@ -331,3 +331,69 @@ body {
   margin-top: 1.5rem;
   margin-bottom: 0;
 }
+.pointer {
+  cursor: pointer;
+}
+#sejarah .sej {
+  opacity: 0;
+  transform: translate(0, 90px);
+}
+#tentang .tk {
+  opacity: 0;
+  transform: translate(0, 90px);
+}
+#legalitas .leg {
+  opacity: 0;
+  transform: translate(0, 90px);
+}
+#tim .tim {
+  opacity: 0;
+  transform: translate(0, 90px);
+}
+#layanan .production {
+  opacity: 0;
+  transform: translate(0, 90px);
+}
+#ulasan .lay {
+  opacity: 0;
+  transform: translate(0, 50px);
+}
+#kontak .con {
+  opacity: 0;
+  transform: translate(0, 70px);
+}
+#kontak .con.show {
+  opacity: 1;
+  transform: translate(0, 0px);
+  transition: 1s;
+}
+#ulasan .lay.show {
+  opacity: 1;
+  transform: translate(0, 0px);
+  transition: 1s;
+}
+#layanan .production.show {
+  opacity: 1;
+  transform: translate(0, 0px);
+  transition: 1s;
+}
+#tim .tim.show {
+  opacity: 1;
+  transform: translate(0, 0px);
+  transition: 1s;
+}
+#legalitas .leg.show {
+  opacity: 1;
+  transform: translate(0, 0px);
+  transition: 1s;
+}
+#tentang .tk.show {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: 1s;
+}
+#sejarah .sej.show {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: 1s;
+}
