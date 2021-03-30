@@ -40,45 +40,17 @@
 
 $(window).scroll(function () {
   var wScroll = $(this).scrollTop();
-  if (wScroll > $("#sejarah").offset().top - 120) {
-    $("#sejarah .sej").each(function (i) {
+  if (wScroll > $("#profile").offset().top - 120) {
+    $("#profile .sej").each(function (i) {
       setTimeout(function () {
-        $("#sejarah .sej").eq(i).addClass("show");
+        $("#profile .sej").eq(i).addClass("show");
       }, 220 * (i + 1));
     });
   }
-  if (wScroll > $("#tentang").offset().top - 120) {
-    $("#tentang .tk").each(function (i) {
+  if (wScroll > $("#portfolio").offset().top - 120) {
+    $("#portfolio .leg").each(function (i) {
       setTimeout(function () {
-        $("#tentang .tk").eq(i).addClass("show");
-      }, 220 * (i + 1));
-    });
-  }
-  if (wScroll > $("#legalitas").offset().top - 120) {
-    $("#legalitas .leg").each(function (i) {
-      setTimeout(function () {
-        $("#legalitas .leg").eq(i).addClass("show");
-      }, 220 * (i + 1));
-    });
-  }
-  if (wScroll > $("#tim").offset().top - 120) {
-    $("#tim .tim").each(function (i) {
-      setTimeout(function () {
-        $("#tim .tim").eq(i).addClass("show");
-      }, 220 * (i + 1));
-    });
-  }
-  if (wScroll > $("#layanan").offset().top - 120) {
-    $("#layanan .production").each(function (i) {
-      setTimeout(function () {
-        $("#layanan .production").eq(i).addClass("show");
-      }, 220 * (i + 1));
-    });
-  }
-  if (wScroll > $("#ulasan").offset().top - 120) {
-    $("#ulasan .lay").each(function (i) {
-      setTimeout(function () {
-        $("#ulasan .lay").eq(i).addClass("show");
+        $("#portfolio .leg").eq(i).addClass("show");
       }, 220 * (i + 1));
     });
   }
