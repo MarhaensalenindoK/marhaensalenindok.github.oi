@@ -90,7 +90,7 @@ i {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    background-color: #070239;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -406,4 +406,32 @@ body {
   opacity: 1;
   transform: translate(0, 0);
   transition: 1s;
+}
+
+i.icon {
+  height: 100px;
+  width: 100px;
+}
+
+i.icon img{
+  height: 100px;
+  width: 100px;
+}
+
+i img.thumbnail {
+  height: 60px;
+  width: 60px;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.ml-5 {
+  margin-left: 3rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.footer.midnight {
+  background-color: #050224;
 }
