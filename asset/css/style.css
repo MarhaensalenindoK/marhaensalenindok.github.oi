@@ -344,65 +344,44 @@ body {
 .pointer {
   cursor: pointer;
 }
-#profile .sej {
+#profile .profile {
   opacity: 0;
   transform: translate(0, 90px);
 }
-#tentang .tk {
+
+#portfolio .portfolio {
   opacity: 0;
   transform: translate(0, 90px);
 }
-#portfolio .leg {
-  opacity: 0;
-  transform: translate(0, 90px);
-}
-#tim .tim {
-  opacity: 0;
-  transform: translate(0, 90px);
-}
+
 #layanan .production {
   opacity: 0;
   transform: translate(0, 90px);
 }
-#ulasan .lay {
-  opacity: 0;
-  transform: translate(0, 50px);
-}
-#kontak .con {
+
+#kontak .contact {
   opacity: 0;
   transform: translate(0, 70px);
 }
-#kontak .con.show {
+#kontak .contact.show {
   opacity: 1;
   transform: translate(0, 0px);
   transition: 1s;
 }
-#ulasan .lay.show {
-  opacity: 1;
-  transform: translate(0, 0px);
-  transition: 1s;
-}
+
 #layanan .production.show {
   opacity: 1;
   transform: translate(0, 0px);
   transition: 1s;
 }
-#tim .tim.show {
+
+#portfolio .portfolio.show {
   opacity: 1;
   transform: translate(0, 0px);
   transition: 1s;
 }
-#portfolio .leg.show {
-  opacity: 1;
-  transform: translate(0, 0px);
-  transition: 1s;
-}
-#tentang .tk.show {
-  opacity: 1;
-  transform: translate(0, 0);
-  transition: 1s;
-}
-#profile .sej.show {
+
+#profile .profile.show {
   opacity: 1;
   transform: translate(0, 0);
   transition: 1s;
@@ -434,4 +413,24 @@ i img.thumbnail {
 
 .footer.midnight {
   background-color: #050224;
+}
+
+.button-youtube {
+  margin-left: 5rem;
+}
+
+.block-covid {
+  height: 20px;
+  width: 100%;
+  background: rgb(148, 64, 64);
+}
+
+.block-statistic-positive {
+  height: 20px;
+  background: #ffc107;
+}
+
+.block-statistic-deaths {
+  height: 20px;
+  background: #ffc107;
 }

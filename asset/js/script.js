@@ -41,23 +41,23 @@
 $(window).scroll(function () {
   var wScroll = $(this).scrollTop();
   if (wScroll > $("#profile").offset().top - 120) {
-    $("#profile .sej").each(function (i) {
+    $("#profile .profile").each(function (i) {
       setTimeout(function () {
-        $("#profile .sej").eq(i).addClass("show");
+        $("#profile .profile").eq(i).addClass("show");
       }, 220 * (i + 1));
     });
   }
   if (wScroll > $("#portfolio").offset().top - 120) {
-    $("#portfolio .leg").each(function (i) {
+    $("#portfolio .portfolio").each(function (i) {
       setTimeout(function () {
-        $("#portfolio .leg").eq(i).addClass("show");
+        $("#portfolio .portfolio").eq(i).addClass("show");
       }, 220 * (i + 1));
     });
   }
   if (wScroll > $("#kontak").offset().top - 120) {
-    $("#kontak .con").each(function (i) {
+    $("#kontak .contact").each(function (i) {
       setTimeout(function () {
-        $("#kontak .con").eq(i).addClass("show");
+        $("#kontak .contact").eq(i).addClass("show");
       }, 220 * (i + 1));
     });
   }
